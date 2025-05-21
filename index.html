@@ -7,84 +7,154 @@
 
     <title>ANuKI - Software Repository Landing Page</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <h1>Analyse der Nutzung von KI für AENEAS (ANuKI) - Repository</h1>
+<body class="container-fluid main ">
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-11 middle py-5">
+            <div class="background-layer">
+                <h1>Analyse der Nutzung von KI für AENEAS (ANuKI) - Repository</h1>
+            </div>
+        </div>
+        <div class="col right"></div>
+    </div>
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-11 middle">This repository contains source code of software projects related to ANuKI.
+            Further information about the project, its contributors and funding can be found <a
+                href="https://www.inf.reutlingen-university.de/forschung/forschungsprojekte/anuki">here</a></div>
+        <div class="col right"></div>
+    </div>
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-11 middle pt-4 pb-1">
+            <h2>Overview of projects</h2>
+        </div>
+        <div class="col right"></div>
+    </div>
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-xl-11 middle">
+            <table class="table">
+                <!-- Row 1 -->
+                <thead>
+                    <tr>
+                        <th colspan="2">Repository Title</th>
+                        <th>Related Publication</th>
+                        <th>Link to repository</th>
+                    </tr>
+                </thead>
 
-    This repository contains source code of software projects related to ANuKI.
-    Further information about the project, its contributors and funding can be found <a
-        href="https://www.inf.reutlingen-university.de/forschung/forschungsprojekte/anuki">here</a>
+                <!-- Row 2 -->
 
-    <h2>Overview of projects</h2>
-    <table class="table table-hover" border="1" cellpadding="8" cellspacing="0">
-        <!-- Row 1 -->
-        <thead>
-            <tr>
-                <td>Repository Title</td>
-                <td>Description</td>
-                <td>Related Publication</td>
-                <td>Link</td>
-            </tr>
-        </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Artefaktextraktor-/Generator</td>
+                        <td>Bülbül, M., Straub, P., Münch, J., Kuhrmann, M. (2025). Towards Generating Measurable
+                            Artifact
+                            Models from Standards in Regulated Domains. In: Pfahl, D., Gonzalez Huerta, J., Klünder, J.,
+                            Anwar,
+                            H. (eds) Product-Focused Software Process Improvement. PROFES 2024. Lecture Notes in
+                            Computer
+                            Science, vol 15452. Springer, Cham. <a
+                                href="https://doi.org/10.1007/978-3-031-78386-9_18">10.1007/978-3-031-78386-9_18</a>
+                        </td>
+                        <td><a href="https://github.com/ANuKI-RT/Artefaktextraktor-Generator">Link</a></td>
+                    </tr>
+                    <!-- Row 3 -->
+                    <tr>
+                        <td colspan="2">Metric Catalog Tool</td>
+                        <td>Vasylieva, K., Brenner, T., Kuhrmann, M., Münch, J. (2025). Enhancing Transparency in Space
+                            Metrics
+                            Use: Insights from an Initial Study. In: Pfahl, D., Gonzalez Huerta, J., Klünder, J., Anwar,
+                            H.
+                            (eds) Product-Focused Software Process Improvement. PROFES 2024. Lecture Notes in Computer
+                            Science,
+                            vol 15452. Springer, Cham. <a
+                                href="https://doi.org/10.1007/978-3-031-78386-9_22">10.1007/978-3-031-78386-9_22</a>
+                        </td>
+                        <td><a href="https://github.com/ANuKI-RT/Metric-Catalog-Tool">Link</a></td>
+                    </tr>
+                    <!-- Row 4 -->
+                    <tr>
+                        <td colspan="2">Aligned Quality Model</td>
+                        <td>P. Beyersdorffer, J. Münch and M. Kuhrmann, "Alignment of Quality Models for Assessing
+                            Software
+                            Requirements in Large-scale Projects: A Case from Space," <i>2023 IEEE International
+                                Conference on
+                                Engineering, Technology and Innovation (ICE/ITMC)</i>, Edinburgh, United Kingdom, 2023,
+                            pp. 1-9,
+                            doi: <a
+                                href="https://ieeexplore.ieee.org/document/10332295">10.1109/ICE/ITMC58018.2023.10332295</a>.
+                        </td>
+                        <td><a href="https://github.com/ANuKI-RT/Aligned-Quality-Model">Link</a></td>
+                    </tr>
+                    <!-- Row 5 -->
+                    <tr>
+                        <td rowspan="3">RequirementsQuality</td>
+                        <td> Extraktor</td>
+                        <td rowspan="3">Korfmann, R., Beyersdorffer, P., Gerlich, R., Münch, J., & Kuhrmann, M. (2025).
+                            Overcoming Data Shortage in Critical Domains With Data Augmentation for Natural Language
+                            Software
+                            Requirements. Journal of Software: Evolution and Process, 37(5), <a
+                                href=" https://doi.org/10.1002/smr.70027">e70027.</a></td>
+                        <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Extraktor">Link</a></td>
+                    </tr>
+                    <!-- Row 6 -->
+                    <tr>
+                        <td> Augmentation</td>
+                        <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Augmentation">Link</a></td>
+                    </tr>
+                    <!-- Row 7 -->
+                    <tr>
+                        <td> Measurement</td>
+                        <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Measurement">Link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col right"></div>
+    </div>
 
-        <!-- Row 2 -->
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-xl-11 middle">
+            <h2>Note</h2>
+        </div>
+        <div class="col right"></div>
+    </div>
 
-        <tbody>
-            <tr>
-                <td colspan="2">Artefaktextraktor-/Generator</td>
-                <td>Row 2, Col 2</td>
-                <td>Bülbül, M., Straub, P., Münch, J., Kuhrmann, M. (2025). Towards Generating Measurable Artifact Models from Standards in Regulated Domains. In: Pfahl, D., Gonzalez Huerta, J., Klünder, J., Anwar, H. (eds) Product-Focused Software Process Improvement. PROFES 2024. Lecture Notes in Computer Science, vol 15452. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-78386-9_18">10.1007/978-3-031-78386-9_18</a> </td>
-                <td><a href="https://github.com/ANuKI-RT/Artefaktextraktor-Generator">Link</a></td>
-            </tr>
-            <!-- Row 3 -->
-            <tr>
-                <td colspan="2">Metric Catalog Tool</td>
-                <td>Row 3, Col 2</td>
-                <td>Vasylieva, K., Brenner, T., Kuhrmann, M., Münch, J. (2025). Enhancing Transparency in Space Metrics Use: Insights from an Initial Study. In: Pfahl, D., Gonzalez Huerta, J., Klünder, J., Anwar, H. (eds) Product-Focused Software Process Improvement. PROFES 2024. Lecture Notes in Computer Science, vol 15452. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-78386-9_22">10.1007/978-3-031-78386-9_22</a> </td>
-                <td><a href="https://github.com/ANuKI-RT/Metric-Catalog-Tool">Link</a></td>
-            </tr>
-            <!-- Row 4 -->
-            <tr>
-                <td colspan="2">Aligned Quality Model</td>
-                <td>Row 4, Col 2</td>
-                <td>P. Beyersdorffer, J. Münch and M. Kuhrmann, "Alignment of Quality Models for Assessing Software Requirements in Large-scale Projects: A Case from Space," <i>2023 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC)</i>, Edinburgh, United Kingdom, 2023, pp. 1-9, doi: <a href="https://ieeexplore.ieee.org/document/10332295">10.1109/ICE/ITMC58018.2023.10332295</a>.</td>
-                <td><a href="https://github.com/ANuKI-RT/Aligned-Quality-Model">Link</a></td>
-            </tr>
-            <!-- Row 5 -->
-            <tr>
-                <td rowspan="3">RequirementsQuality</td>
-                <td> - Extraktor</td>
-                <td>Row 5, Col 3</td>
-                <td rowspan="3">Korfmann, R., Beyersdorffer, P., Gerlich, R., Münch, J., & Kuhrmann, M. (2025). Overcoming Data Shortage in Critical Domains With Data Augmentation for Natural Language Software Requirements. Journal of Software: Evolution and Process, 37(5), <a href=" https://doi.org/10.1002/smr.70027">e70027.</a></td>
-                <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Extraktor">Link</a></td>
-            </tr>
-            <!-- Row 6 -->
-            <tr>
-                <td> - Augmentation</td>
-                <td>Row 6, Col 2</td>
-                <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Augmentation">Link</a></td>
-            </tr>
-            <!-- Row 7 -->
-            <tr>
-                <td> - Measurement</td>
-                <td>Row 7, Col 2</td>
-                <td><a href="https://github.com/ANuKI-RT/RequirementsQuality-Measurement">Link</a></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-xl-11 middle"> All software has been tested on
+            <b>MacMini M1, 2020</b>
+            <ul>
+                <li>Chip: Apple M1</li>
+                <li>Memory: 16 GB</li>
+                <li>macOS: Ventura 13.4</li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+        </div>
+        <div class="col right"></div>
+    </div>
 
-    All of the software has been tested on
-    <b>MacMini M1, 2020</b>
-    <ul>
-        <li>Chip: Apple M1</li>
-        <li>Memory: 16 GB</li>
-        <li>macOS: Ventura 13.4</li>
-    </ul>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="row">
+        <div class="col left"></div>
+        <div class="col-xl-11 middle pb-5"></div>
+        <div class="col right"></div>
+    </div>
 </body>
 
 </html>
