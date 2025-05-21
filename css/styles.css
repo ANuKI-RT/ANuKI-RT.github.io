@@ -32,3 +32,21 @@ h1,
 .main {
     background-color: #ffe163;
 }
+
+a {
+  color: #ffcc00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link {
+  color: #ffe163;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffe163;
+  background-color: transparent;
+  text-decoration: underline;
+}
